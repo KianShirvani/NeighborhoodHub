@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditPostActivity">
+
+    <!-- Top Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/colorPrimaryContainer"
+        android:id="@+id/appBarLayout"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/top_bar_with_function"
+            app:navigationIcon="@drawable/back_arrow"
+            app:navigationIconTint="?attr/colorOnPrimaryContainer"
+            app:title="My Posts"
+            app:titleTextColor="?attr/colorOnPrimaryContainer"
+            app:titleCentered="true"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Image Upload Section -->
+    <LinearLayout
+        android:id="@+id/imageUploadSection"
+        android:layout_width="409dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout">
+
+        <!-- Placeholder for Image -->
+        <ImageView
+            android:id="@+id/imagePlaceholder"
+            android:layout_width="363dp"
+            android:layout_height="152dp"
+            android:layout_gravity="center"
+            android:background="?attr/colorSurfaceDim"
+            android:contentDescription="Image placeholder" />
+
+        <!-- Button to Select Image -->
+        <Button
+            android:id="@+id/buttonSelectImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="?attr/colorTertiary"
+            android:text="Select Image" />
+    </LinearLayout>
+
+    <!-- Fields for Description, Location, and Post Options -->
+
+    <!-- Share Button -->
+
+    <LinearLayout
+        android:id="@+id/postDetailsSection"
+        android:layout_width="412dp"
+        android:layout_height="308dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSavePost"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/categoryLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Description (100 Character Limit) :"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPostDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Enter post description"
+            android:maxLength="100"
+            android:padding="16dp" />
+
+        <!-- Location -->
+        <TextView
+            android:id="@+id/locationLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Location:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextPostLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLength="30"
+            android:hint="Enter post location"
+            android:padding="16dp" />
+
+        <!-- Post Notification Options -->
+
+        <!-- Toggle Button for Contact Options -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSavePost"
+        android:layout_width="198dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:text="Save Post"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

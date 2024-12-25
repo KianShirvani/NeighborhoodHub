@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/app_name">
+        <menu>
+            <item
+                android:id="@+id/home_drawer"
+                android:icon="@drawable/home_icon"
+                android:title="Home"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/market_drawer"
+                android:icon="@drawable/market_icon"
+                android:title="Marketplace"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/calendar_drawer"
+                android:icon="@drawable/calendar_icon"
+                android:title="Event Calender"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/settings_drawer"
+                android:icon="@drawable/person"
+                android:title="Profile"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/local_drawer"
+                android:icon="@drawable/baseline_info_24"
+                android:title="Local Info"
+                android:checkable="true"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/local_info.xml -->
+<resources>
+    <category name="Emergency">
+        <provider name="Kelowna Fire Department" phone="250-763-4500" address="2255 Enterprise Way, Kelowna, BC V1Y 6H2" hours="24/7" />
+        <provider name="Kelowna RCMP Detachment" phone="250-762-3300" address="1190 Richter St, Kelowna, BC V1Y 8T4" hours="24/7" />
+        <provider name="BC Ambulance Service" phone="911" address="N/A" hours="24/7" />
+        <provider name="Kelowna Poison Control Centre" phone="1-800-567-8911" address="N/A" hours="24/7" />
+        <provider name="FortisBC Emergency Line" phone="1-800-663-9911" address="N/A" hours="24/7" />
+    </category>
+    <category name="Medical">
+        <provider name="Kelowna General Hospital" phone="250-862-4000" address="2268 Pandosy St, Kelowna, BC V1Y 1T2" hours="24/7" />
+        <provider name="Urgent and Primary Care Centre" phone="250-868-9090" address="1140 Harvey Ave, Kelowna, BC V1Y 6G7" hours="7:00 AM - 10:00 PM" />
+        <provider name="Landmark Medical Clinic" phone="250-763-0033" address="1632 Dickson Ave, Kelowna, BC V1Y 7T4" hours="8:00 AM - 5:00 PM" />
+        <provider name="Mission Creek Medical Centre" phone="250-860-2277" address="2180 Springfield Rd, Kelowna, BC V1Y 5W7" hours="8:00 AM - 5:00 PM" />
+        <provider name="Pandosy Village Medical Clinic" phone="250-868-9800" address="2780 Pandosy St, Kelowna, BC V1Y 1V7" hours="8:00 AM - 5:00 PM" />
+    </category>
+    <category name="Grocery">
+        <provider name="Save-On-Foods" phone="250-762-5811" address="1876 Cooper Rd, Kelowna, BC V1Y 8B7" hours="7:00 AM - 11:00 PM" />
+        <provider name="Safeway" phone="250-860-2233" address="200-1710 Baron Rd, Kelowna, BC V1Y 9G4" hours="7:00 AM - 10:00 PM" />
+        <provider name="Superstore" phone="250-765-3013" address="3530 Carrington Rd, Kelowna, BC V1X 7P7" hours="7:00 AM - 11:00 PM" />
+        <provider name="Urban Fare" phone="250-763-3663" address="1700 Harvey Ave, Kelowna, BC V1Y 6G4" hours="7:00 AM - 10:00 PM" />
+        <provider name="Quality Greens Farm Market" phone="250-765-4222" address="1900 Spall Rd, Kelowna, BC V1Y 4R2" hours="8:00 AM - 8:00 PM" />
+    </category>
+    <category name="Home Service">
+        <provider name="Reliable Plumbing &#38; Heating" phone="250-860-1414" address="101-1889 Springfield Rd, Kelowna, BC V1Y 5V5" hours="8:00 AM - 5:00 PM" />
+        <provider name="West Kelowna Electric" phone="250-769-7697" address="2470 Main St, West Kelowna, BC V4T 1Z4" hours="8:00 AM - 5:00 PM" />
+        <provider name="Okanagan Appliance Service" phone="250-860-8880" address="105-1889 Springfield Rd, Kelowna, BC V1Y 5V5" hours="8:00 AM - 5:00 PM" />
+        <provider name="Kelowna Lock &#38; Safe" phone="250-860-5397" address="1445 Kirschner Rd, Kelowna, BC V1Y 4N7" hours="8:00 AM - 5:00 PM" />
+        <provider name="M &#38; M Vacuum &#38; Sewing Centre" phone="250-860-3630" address="1872 Spall Rd, Kelowna, BC V1Y 4R2" hours="9:00 AM - 5:30 PM" />
+    </category>
+</resources>

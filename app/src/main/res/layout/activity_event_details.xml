@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventDetailsActivity">
+
+    <!-- Top Bar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/colorPrimaryContainer"
+        android:id="@+id/appBarLayout"
+        >
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/top_bar_with_function"
+            app:navigationIcon="@drawable/back_arrow"
+            app:navigationIconTint="?attr/colorOnPrimaryContainer"
+            app:title="Event Details"
+            app:titleTextColor="?attr/colorOnPrimaryContainer"
+            app:titleCentered="true"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/userIdTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/eventTitleTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dateTimeTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/locationNameTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/existingLocationTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location: "
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/locationAddressTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="5dp"
+        android:textSize="20sp"
+        android:layout_marginBottom="4dp"
+        android:autoLink="all"
+        android:textColor="@android:color/holo_blue_dark" />
+</LinearLayout>

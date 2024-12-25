@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NeighborhoodHub</string>
+    <string name="my_text"><u>Call 9-1-1 if you are in an emergency</u>.</string>
+    <string name="underline1"><u>Be Neighborly</u>.</string>
+    <string name="underline2"><u>No Racial Profiling or Prejudice</u>.</string>
+    <string name="underline3"><u>Stay Focused on Safety and Community News</u>.</string>
+    <string name="post_rules">Be Neighborly.\nApproach discussions with kindness, respect, and understanding. We’re here to help, not hurt!\n\nNo Racial Profiling or Prejudice.\nPosts or comments that involve discrimination, hate, or profiling of any kind will not be tolerated.\n\nStay Focused on Safety and Community News.\nShare only relevant updates related to safety, crime prevention, and community alerts.</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
